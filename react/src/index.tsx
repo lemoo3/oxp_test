@@ -1,6 +1,13 @@
-import * as React from 'react'
+import React from 'react'
 import {render} from 'react-dom'
 
-const Main = (<h1>ReactReact</h1>)
+import {SwiperComp} from './compornents/SwiperComp'
+
+const Main = (
+    <>
+     <h1>ReactReact!</h1>
+     <SwiperComp/>
+    </>
+)
 
 render(Main, document.getElementById('app'))
